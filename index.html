@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Algorithm Assistant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>AI Algorithm Assistant</h1>
+  </header>
+
+  <main>
+    <section id="upload-section">
+      <h2>Upload Your Dataset</h2>
+      <input type="file" id="file-input" accept=".csv">
+      <button id="upload-btn">Upload</button>
+    </section>
+
+    <section id="query-section">
+      <h2>Ask Your Question</h2>
+      <textarea id="user-query" placeholder="Type your question here..."></textarea>
+      <button id="query-btn">Submit</button>
+    </section>
+
+    <section id="results-section">
+      <h2>Results</h2>
+      <div id="results"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>AI Algorithm Assistant © 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
